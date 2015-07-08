@@ -72,6 +72,14 @@ body{
     background-size:80px 24px;
 }
 
+.header-text{
+    margin-top:18px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	color:#FFFFFF;
+}
+
 .header-clear{
     height:30px;
 }
@@ -85,6 +93,7 @@ body{
     top:0px;
     transition:all 250ms ease;
 }
+
 
 .open-menu:hover{
     color:#FFFFFF;
@@ -117,6 +126,28 @@ body{
 }
 
 .open-more i{
+    width:55px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    font-size:14px;
+}
+
+.qr-btn{
+    color:#bcbcbc;
+    position:absolute;
+    width:55px;
+    height:60px;
+    right:0px;
+    top:0px;
+}
+
+.qr-btn:hover{
+    color:#FFFFFF;
+    background-color:rgba(255,255,255,0.02);
+}
+
+.qr-btn i{
     width:55px;
     height:60px;
     line-height:60px;
