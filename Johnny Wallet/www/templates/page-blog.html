@@ -86,10 +86,10 @@
                     </ul>
                 </li>                 
                 <li class="has-submenu">
-                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-file"></i>Pages<i class="fa fa-plus"></i></a>
-                    <ul class="submenu active-submenu-items">
+                    <a class="deploy-submenu" href="#"><i class="fa fa-file"></i>Pages<i class="fa fa-plus"></i></a>
+                    <ul class="submenu">
                         <li><a href="page-error.html"><i class="fa fa-angle-right"></i>404 Page<i class="fa fa-circle"></i></a></li>
-                        <li><a class="active-menu" href="page-soon.html"><i class="fa fa-angle-right"></i>Soon Page<i class="fa fa-circle"></i></a></li>
+                        <li><a href="page-soon.html"><i class="fa fa-angle-right"></i>Soon Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="page-updates.html"><i class="fa fa-angle-right"></i>Updates Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="page-timeline.html"><i class="fa fa-angle-right"></i>Timeline Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="index2.html"><i class="fa fa-angle-right"></i>Home Fullscreen<i class="fa fa-circle"></i></a></li>
@@ -109,9 +109,25 @@
                     </ul>
                 </li>
                 <li><a href="page-video.html"><i class="fa fa-youtube-play"></i>Videos<i class="fa fa-circle"></i></a></li>
-                <li><a href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
+                <li><a class="active-menu" href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact<i class="fa fa-circle"></i></a></li>
             </ul>
+            <div class="sidebar-divider">
+                Copyright 2015. All rights reserved.
+            </div>
+        </div>
+        <div class="snap-drawer snap-drawer-right">
+            <div class="sidebar-header">
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-times"></i></a>                
+            </div>
+            
+            <div class="sidebar-logo">
+                <a href="index.html"></a>
+            </div>
             
             <div class="sidebar-divider">
                 get social with us
@@ -150,7 +166,6 @@
                 <strong>Atention</strong>
                 <em>Released a right sidebar item</em>
             </a>
-            
             <div class="sidebar-divider">
                 Copyright 2015. All rights reserved.
             </div>
@@ -162,24 +177,131 @@
         <div class="header">
             <a href="index.html" class="header-logo"></a>
             <a href="#" class="open-menu"><i class="fa fa-navicon"></i></a>
+            <a href="#" class="open-more"><i class="fa fa-envelope-o"></i></a>
         </div>
-
-        
-        <div class="soon-page-wrapper">
-            <div class="soon-page">
-                <h1>Coming Soon</h1>
-                <h4>We're still working on this page!</h4>
-                <p>
-                    We're working really hard to get this page up and running as soon as possible! We have an estimate below! 
-                    
-                </p>
-                <div class="countdown"></div>
-                <a href="#" class="soon-button"><i class="fa fa-home"></i>Home</a>
+        <div class="header-clear"></div>
+            
+        <div class="content">
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <a class="blog-post-image" href="#"><img src="images/pictures/3ww.jpg" alt="img"></a>
+                    <h3 class="blog-post-title">Blog Post Title</h3>
+                    <p class="blog-post-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam est 
+                        ut volutpat auctor. Suspendisse finibus libero risus, eu vulputate velit
+                        tempor et. In eget nunc aliquam, sagittis risus vitae, pharetra enim.
+                    </p>
+                    <p class="blog-post-date"><i class="fa fa-calendar"></i>20/01/2015</p>
+                    <p class="blog-post-more"><a href="#">Read More<i class="fa fa-angle-right"></i></a></p>
+                </div>
+                <div class="decoration"></div>
+                <div class="blog-post">
+                    <a class="blog-post-image" href="#"><img src="images/pictures/5ww.jpg" alt="img"></a>
+                    <h3 class="blog-post-title">Blog Post Title</h3>
+                    <p class="blog-post-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam est 
+                        ut volutpat auctor. Suspendisse finibus libero risus, eu vulputate velit
+                        tempor et. In eget nunc aliquam, sagittis risus vitae, pharetra enim.
+                    </p>
+                    <p class="blog-post-date"><i class="fa fa-calendar"></i>20/01/2015</p>
+                    <p class="blog-post-more"><a href="#">Read More<i class="fa fa-angle-right"></i></a></p>
+                </div>
             </div>
-            <div class="overlay"></div>
+            <div class="blog-sidebar">
+                <div class="decoration hide-if-responsive"></div>
+                <div class="widget container">
+                    <h4>Looking for something?</h4>
+                    <p>
+                        An input field you can connect to your needs and use as a search field.
+                    </p>
+                    <input class="blog-search" type="text" value="Search here...">
+                </div>
+                <div class="decoration"></div>
+                <div class="widget container">
+                    <h4>Recent Works</h4>
+                    <p>
+                        You can link this to be a gallery or link it to act like a normal anchor
+                        to redirect your users to the specific post you want. 
+                    </p>
+                    <ul class="gallery square-thumb blog-gallery">
+                        <li><a href="#"><img src="images/pictures/1s.jpg" alt="img"/></a></li>
+                        <li><a href="#"><img src="images/pictures/2s.jpg" alt="img"/></a></li>
+                        <li><a href="#"><img src="images/pictures/3s.jpg" alt="img"/></a></li>
+                        <li><a href="#"><img src="images/pictures/4s.jpg" alt="img"/></a></li>
+                    </ul>
+                </div>
+                <div class="widget container">
+                    <h4>Categories</h4>
+                    <p>
+                        Your categories styled up to look nice and clean!
+                    </p>
+                    <div class="one-half">
+                        <ul class="blog-category">
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 1</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 2</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 3</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="one-half last-column">
+                        <ul class="blog-category">
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 1</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 2</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 3</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i>Category 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="decoration"></div>
         </div>
-     
+        
+        <!-- Page Footer-->
+        <div class="footer">
+            <div class="footer-socials half-bottom">
+                <a href="#" class="footer-facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="footer-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="footer-google"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="footer-share show-share-bottom"><i class="fa fa-share-alt"></i></a>
+                <a href="#" class="footer-up"><i class="fa fa-angle-up"></i></a>
+            </div>
+            <p class="center-text">Copyright 2015. All rights reserved.</p>
+        </div>       
     </div>
+    
+    <div class="share-bottom">
+        <h3>Share Page</h3>
+        <div class="share-socials-bottom">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.themeforest.net/">
+                <i class="fa fa-facebook facebook-color"></i>
+                Facebook
+            </a>
+            <a href="https://twitter.com/home?status=Check%20out%20ThemeForest%20http://www.themeforest.net">
+                <i class="fa fa-twitter twitter-color"></i>
+                Twitter
+            </a>
+            <a href="https://plus.google.com/share?url=http://www.themeforest.net">
+                <i class="fa fa-google-plus google-color"></i>
+                Google
+            </a>
+
+            <a href="https://pinterest.com/pin/create/button/?url=http://www.themeforest.net/&media=https://0.s3.envato.com/files/63790821/profile-image.jpg&description=Themes%20and%20Templates">
+                <i class="fa fa-pinterest-p pinterest-color"></i>
+                Pinterest
+            </a>
+            <a href="sms:">
+                <i class="fa fa-comment-o sms-color"></i>
+                Text
+            </a>
+            <a href="mailto:?&subject=Check this page out!&body=http://www.themeforest.net">
+                <i class="fa fa-envelope-o mail-color"></i>
+                Email
+            </a>
+        </div>
+        <a href="#" class="close-share-bottom">Close</a>
+    </div>
+    
 </div>
 
 </body>

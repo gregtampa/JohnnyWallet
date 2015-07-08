@@ -86,9 +86,9 @@
                     </ul>
                 </li>                 
                 <li class="has-submenu">
-                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-file"></i>Pages<i class="fa fa-plus"></i></a>
-                    <ul class="submenu active-submenu-items">
-                        <li><a class="active-menu" href="page-error.html"><i class="fa fa-angle-right"></i>404 Page<i class="fa fa-circle"></i></a></li>
+                    <a class="deploy-submenu" href="#"><i class="fa fa-file"></i>Pages<i class="fa fa-plus"></i></a>
+                    <ul class="submenu">
+                        <li><a href="page-error.html"><i class="fa fa-angle-right"></i>404 Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="page-soon.html"><i class="fa fa-angle-right"></i>Soon Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="page-updates.html"><i class="fa fa-angle-right"></i>Updates Page<i class="fa fa-circle"></i></a></li>
                         <li><a href="page-timeline.html"><i class="fa fa-angle-right"></i>Timeline Page<i class="fa fa-circle"></i></a></li>
@@ -96,9 +96,9 @@
                     </ul>
                 </li>                
                 <li class="has-submenu">
-                    <a class="deploy-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
-                    <ul class="submenu">
-                        <li><a href="pageapp-login.html"><i class="fa fa-angle-right"></i>Login<i class="fa fa-circle"></i></a></li>
+                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
+                    <ul class="submenu active-submenu-items">
+                        <li><a class="active-menu" href="pageapp-login.html"><i class="fa fa-angle-right"></i>Login<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-sigin.html"><i class="fa fa-angle-right"></i>Signup<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-coverpage.html"><i class="fa fa-angle-right"></i>Coverpage<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-userlist.html"><i class="fa fa-angle-right"></i>User List<i class="fa fa-circle"></i></a></li>
@@ -106,12 +106,29 @@
                         <li><a href="pageapp-activity.html"><i class="fa fa-angle-right"></i>Activity Feed<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-bubbles.html"><i class="fa fa-angle-right"></i>Chat Bubbles<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-shareboxes.html"><i class="fa fa-angle-right"></i>Share Boxes<i class="fa fa-circle"></i></a></li>
+                        <li><a href="pageapp-toggles.html"><i class="fa fa-angle-right"></i>Content Toggles<i class="fa fa-circle"></i></a></li>
                     </ul>
                 </li>
                 <li><a href="page-video.html"><i class="fa fa-youtube-play"></i>Videos<i class="fa fa-circle"></i></a></li>
                 <li><a href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact<i class="fa fa-circle"></i></a></li>
             </ul>
+            <div class="sidebar-divider">
+                Copyright 2015. All rights reserved.
+            </div>
+        </div>
+        <div class="snap-drawer snap-drawer-right">
+            <div class="sidebar-header">
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-times"></i></a>                
+            </div>
+            
+            <div class="sidebar-logo">
+                <a href="index.html"></a>
+            </div>
             
             <div class="sidebar-divider">
                 get social with us
@@ -150,7 +167,6 @@
                 <strong>Atention</strong>
                 <em>Released a right sidebar item</em>
             </a>
-            
             <div class="sidebar-divider">
                 Copyright 2015. All rights reserved.
             </div>
@@ -162,21 +178,30 @@
         <div class="header">
             <a href="index.html" class="header-logo"></a>
             <a href="#" class="open-menu"><i class="fa fa-navicon"></i></a>
+            <a href="#" class="open-more"><i class="fa fa-envelope-o"></i></a>
         </div>
-
         
-        <div class="error-page-wrapper">
-            <div class="error-page">
-                <h1>404</h1>
-                <h4>Page Not Found</h4>
+        <div class="login-page bg1">
+            <div class="login-page-overlay"></div>
+            <div class="login-page-wrapper">
+                <a href="#" class="login-logo"></a>
                 <p>
-                    Oh no! The page you're searching for is not here! How about going back home and trying again! 
+                    Please enter your login credentials bellow. 
                 </p>
-                <a href="#" class="error-button"><i class="fa fa-home"></i>Home</a>
-            </div>
-            <div class="overlay"></div>
+                <input type="text"     class="login-username" value="username">
+                <input type="password" class="login-password" value="password">
+                <div class="one-half">
+                    <a href="#" class="button button-green">Login</a>
+                </div>
+                <div class="one-half last-column">
+                    <a href="pageapp-sigin.html" class="button button-blue">Signup</a>
+                </div>
+                <div class="clear"></div>
+                <a class="forgot" href="#">Forgot Password?</a>
+            </div>            
         </div>
-     
+        
+        
     </div>
 </div>
 

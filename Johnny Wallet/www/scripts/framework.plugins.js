@@ -439,7 +439,7 @@ function(e){e.preventDefault();doScroll(e)})};
     var n = n || function(n) {
         var r = {
             dragger: null,
-            disable: 'right',
+            disable: '',
             addBodyClasses: true,
             hyperextensible: true,
             resistance: 0.5,

@@ -31,7 +31,7 @@ $(document).ready(function() {
         return false;
     });    
     
-    $('.close-share-bottom, #content, .open-menu').click(function(){
+    $('.close-share-bottom, #content, .open-menu, .open-more').click(function(){
        $('.share-bottom').removeClass('active-share-bottom'); 
     });
 
@@ -79,6 +79,16 @@ $(document).ready(function() {
 			snapper.close();
 		} else {
 			snapper.open('left');
+		}
+		return false;
+	});	
+    
+    $('.open-more').click(function() {
+		//$(this).toggleClass('remove-sidebar');
+		if( snapper.state().state=="right" ){
+			snapper.close();
+		} else {
+			snapper.open('right');
 		}
 		return false;
 	});

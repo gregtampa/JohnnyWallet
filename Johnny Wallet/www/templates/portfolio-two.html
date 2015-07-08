@@ -70,11 +70,11 @@
                     </ul>
                 </li>
                 <li class="has-submenu">
-                    <a class="deploy-submenu" href="#"><i class="fa fa-picture-o"></i>Portfolios<i class="fa fa-plus"></i></a>
-                    <ul class="submenu">
+                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-picture-o"></i>Portfolios<i class="fa fa-plus"></i></a>
+                    <ul class="submenu active-submenu-items">
                         <li><a href="portfolio-adaptive.html"><i class="fa fa-angle-right"></i>Adaptive<i class="fa fa-circle"></i></a></li>
                         <li><a href="portfolio-one.html"><i class="fa fa-angle-right"></i>One Column<i class="fa fa-circle"></i></a></li>
-                        <li><a href="portfolio-two.html"><i class="fa fa-angle-right"></i>Two Columns<i class="fa fa-circle"></i></a></li>
+                        <li><a class="active-menu" href="portfolio-two.html"><i class="fa fa-angle-right"></i>Two Columns<i class="fa fa-circle"></i></a></li>
                     </ul>
                 </li>                 
                 <li class="has-submenu">
@@ -96,9 +96,9 @@
                     </ul>
                 </li>                
                 <li class="has-submenu">
-                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
-                    <ul class="submenu active-submenu-items">
-                        <li><a class="active-menu" href="pageapp-login.html"><i class="fa fa-angle-right"></i>Login<i class="fa fa-circle"></i></a></li>
+                    <a class="deploy-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
+                    <ul class="submenu">
+                        <li><a href="pageapp-login.html"><i class="fa fa-angle-right"></i>Login<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-sigin.html"><i class="fa fa-angle-right"></i>Signup<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-coverpage.html"><i class="fa fa-angle-right"></i>Coverpage<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-userlist.html"><i class="fa fa-angle-right"></i>User List<i class="fa fa-circle"></i></a></li>
@@ -106,13 +106,28 @@
                         <li><a href="pageapp-activity.html"><i class="fa fa-angle-right"></i>Activity Feed<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-bubbles.html"><i class="fa fa-angle-right"></i>Chat Bubbles<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-shareboxes.html"><i class="fa fa-angle-right"></i>Share Boxes<i class="fa fa-circle"></i></a></li>
-                        <li><a href="pageapp-toggles.html"><i class="fa fa-angle-right"></i>Content Toggles<i class="fa fa-circle"></i></a></li>
                     </ul>
                 </li>
                 <li><a href="page-video.html"><i class="fa fa-youtube-play"></i>Videos<i class="fa fa-circle"></i></a></li>
                 <li><a href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact<i class="fa fa-circle"></i></a></li>
             </ul>
+            <div class="sidebar-divider">
+                Copyright 2015. All rights reserved.
+            </div>
+        </div>
+        <div class="snap-drawer snap-drawer-right">
+            <div class="sidebar-header">
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-times"></i></a>                
+            </div>
+            
+            <div class="sidebar-logo">
+                <a href="index.html"></a>
+            </div>
             
             <div class="sidebar-divider">
                 get social with us
@@ -151,7 +166,6 @@
                 <strong>Atention</strong>
                 <em>Released a right sidebar item</em>
             </a>
-            
             <div class="sidebar-divider">
                 Copyright 2015. All rights reserved.
             </div>
@@ -163,30 +177,138 @@
         <div class="header">
             <a href="index.html" class="header-logo"></a>
             <a href="#" class="open-menu"><i class="fa fa-navicon"></i></a>
+            <a href="#" class="open-more"><i class="fa fa-envelope-o"></i></a>
         </div>
         
-        <div class="login-page bg1">
-            <div class="login-page-overlay"></div>
-            <div class="login-page-wrapper">
-                <a href="#" class="login-logo"></a>
-                <p>
-                    Please enter your login credentials bellow. 
-                </p>
-                <input type="text"     class="login-username" value="username">
-                <input type="password" class="login-password" value="password">
-                <div class="one-half">
-                    <a href="#" class="button button-green">Login</a>
+        <div class="header-clear"></div>
+        <div class="content">
+            <div class="portfolio-two">
+                <div class="portfolio-two-item full-bottom">
+                    <div class="portfolio-two-image">
+                        <a href="images/pictures/3.jpg" class="swipebox" title="Caption Here">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <img src="images/pictures/3s.jpg" class="responsive-image">
+                    </div>
+                    <div class="portfolio-two-text">
+                        <h3 class="title">Portfolio Item</h3>
+                        <em class="subtitle">Portfolio items placed on multiple columns.</em>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consecte tur est adipiscing elit. Lacus 
+                            sollid um facilisis eleme quis, vulputat nec. 
+                        </p>            
+                        <div class="portfolio-two-links">
+                            <a href="#"><i class="fa fa-arrow-right"></i> Visit Project</a>
+                        </div> 
+                    </div>       
                 </div>
-                <div class="one-half last-column">
-                    <a href="pageapp-sigin.html" class="button button-blue">Signup</a>
+                <div class="portfolio-two-item full-bottom">
+                    <div class="portfolio-two-image">
+                        <a href="images/pictures/3.jpg" class="swipebox" title="Caption Here">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <img src="images/pictures/4s.jpg" class="responsive-image">
+                    </div>
+                    <div class="portfolio-two-text">
+                        <h3 class="title">Portfolio Item</h3>
+                        <em class="subtitle">Portfolio items placed on multiple columns.</em>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consecte tur est adipiscing elit. Lacus 
+                            sollid um facilisis eleme quis, vulputat nec. 
+                        </p>              
+                        <div class="portfolio-two-links">
+                            <a href="#"><i class="fa fa-arrow-right"></i> Visit Project</a>
+                        </div> 
+                    </div>       
                 </div>
-                <div class="clear"></div>
-                <a class="forgot" href="#">Forgot Password?</a>
-            </div>            
+                <div class="decoration hide-if-responsive"></div>
+                <div class="portfolio-two-item full-bottom">
+                    <div class="portfolio-two-image">
+                        <a href="images/pictures/3.jpg" class="swipebox" title="Caption Here">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <img src="images/pictures/3s.jpg" class="responsive-image">
+                    </div>
+                    <div class="portfolio-two-text">
+                        <h3 class="title">Portfolio Item</h3>
+                        <em class="subtitle">Portfolio items placed on multiple columns.</em>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consecte tur est adipiscing elit. Lacus 
+                            sollid um facilisis eleme quis, vulputat nec. 
+                        </p>            
+                        <div class="portfolio-two-links">
+                            <a href="#"><i class="fa fa-arrow-right"></i> Visit Project</a>
+                        </div> 
+                    </div>       
+                </div>
+                <div class="portfolio-two-item full-bottom">
+                    <div class="portfolio-two-image">
+                        <a href="images/pictures/3.jpg" class="swipebox" title="Caption Here">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <img src="images/pictures/4s.jpg" class="responsive-image">
+                    </div>
+                    <div class="portfolio-two-text">
+                        <h3 class="title">Portfolio Item</h3>
+                        <em class="subtitle">Portfolio items placed on multiple columns.</em>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consecte tur est adipiscing elit. Lacus 
+                            sollid um facilisis eleme quis, vulputat nec. 
+                        </p>              
+                        <div class="portfolio-two-links">
+                            <a href="#"><i class="fa fa-arrow-right"></i> Visit Project</a>
+                        </div> 
+                    </div>       
+                </div>        
+            </div>
+            <div class="decoration"></div>
         </div>
-        
-        
+            
+        <!-- Page Footer-->
+        <div class="footer">
+            <div class="footer-socials half-bottom">
+                <a href="#" class="footer-facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="footer-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="footer-google"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="footer-share show-share-bottom"><i class="fa fa-share-alt"></i></a>
+                <a href="#" class="footer-up"><i class="fa fa-angle-up"></i></a>
+            </div>
+            <p class="center-text">Copyright 2015. All rights reserved.</p>
+        </div>       
     </div>
+    
+    <div class="share-bottom">
+        <h3>Share Page</h3>
+        <div class="share-socials-bottom">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.themeforest.net/">
+                <i class="fa fa-facebook facebook-color"></i>
+                Facebook
+            </a>
+            <a href="https://twitter.com/home?status=Check%20out%20ThemeForest%20http://www.themeforest.net">
+                <i class="fa fa-twitter twitter-color"></i>
+                Twitter
+            </a>
+            <a href="https://plus.google.com/share?url=http://www.themeforest.net">
+                <i class="fa fa-google-plus google-color"></i>
+                Google
+            </a>
+
+            <a href="https://pinterest.com/pin/create/button/?url=http://www.themeforest.net/&media=https://0.s3.envato.com/files/63790821/profile-image.jpg&description=Themes%20and%20Templates">
+                <i class="fa fa-pinterest-p pinterest-color"></i>
+                Pinterest
+            </a>
+            <a href="sms:">
+                <i class="fa fa-comment-o sms-color"></i>
+                Text
+            </a>
+            <a href="mailto:?&subject=Check this page out!&body=http://www.themeforest.net">
+                <i class="fa fa-envelope-o mail-color"></i>
+                Email
+            </a>
+        </div>
+        <a href="#" class="close-share-bottom">Close</a>
+    </div>
+    
 </div>
 
 </body>

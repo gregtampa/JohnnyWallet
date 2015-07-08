@@ -70,9 +70,9 @@
                     </ul>
                 </li>
                 <li class="has-submenu">
-                    <a class="deploy-submenu" href="#"><i class="fa fa-picture-o"></i>Portfolios<i class="fa fa-plus"></i></a>
-                    <ul class="submenu">
-                        <li><a href="portfolio-adaptive.html"><i class="fa fa-angle-right"></i>Adaptive<i class="fa fa-circle"></i></a></li>
+                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-picture-o"></i>Portfolios<i class="fa fa-plus"></i></a>
+                    <ul class="submenu active-submenu-items">
+                        <li><a class="active-menu" href="portfolio-adaptive.html"><i class="fa fa-angle-right"></i>Adaptive<i class="fa fa-circle"></i></a></li>
                         <li><a href="portfolio-one.html"><i class="fa fa-angle-right"></i>One Column<i class="fa fa-circle"></i></a></li>
                         <li><a href="portfolio-two.html"><i class="fa fa-angle-right"></i>Two Columns<i class="fa fa-circle"></i></a></li>
                     </ul>
@@ -96,23 +96,38 @@
                     </ul>
                 </li>                
                 <li class="has-submenu">
-                    <a class="deploy-submenu active-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
-                    <ul class="submenu active-submenu-items">
+                    <a class="deploy-submenu" href="#"><i class="fa fa-mobile"></i>App Specific<i class="fa fa-plus"></i></a>
+                    <ul class="submenu">
                         <li><a href="pageapp-login.html"><i class="fa fa-angle-right"></i>Login<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-sigin.html"><i class="fa fa-angle-right"></i>Signup<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-coverpage.html"><i class="fa fa-angle-right"></i>Coverpage<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-userlist.html"><i class="fa fa-angle-right"></i>User List<i class="fa fa-circle"></i></a></li>
-                        <li><a class="active-menu" href="pageapp-calendar.html"><i class="fa fa-angle-right"></i>Calendar<i class="fa fa-circle"></i></a></li>
+                        <li><a href="pageapp-calendar.html"><i class="fa fa-angle-right"></i>Calendar<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-activity.html"><i class="fa fa-angle-right"></i>Activity Feed<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-bubbles.html"><i class="fa fa-angle-right"></i>Chat Bubbles<i class="fa fa-circle"></i></a></li>
                         <li><a href="pageapp-shareboxes.html"><i class="fa fa-angle-right"></i>Share Boxes<i class="fa fa-circle"></i></a></li>
-                        <li><a href="pageapp-toggles.html"><i class="fa fa-angle-right"></i>Content Toggles<i class="fa fa-circle"></i></a></li>
                     </ul>
                 </li>
                 <li><a href="page-video.html"><i class="fa fa-youtube-play"></i>Videos<i class="fa fa-circle"></i></a></li>
                 <li><a href="page-blog.html"><i class="fa fa-pencil"></i>Blog<i class="fa fa-circle"></i></a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope"></i>Contact<i class="fa fa-circle"></i></a></li>
             </ul>
+            <div class="sidebar-divider">
+                Copyright 2015. All rights reserved.
+            </div>
+        </div>
+        <div class="snap-drawer snap-drawer-right">
+            <div class="sidebar-header">
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-times"></i></a>                
+            </div>
+            
+            <div class="sidebar-logo">
+                <a href="index.html"></a>
+            </div>
             
             <div class="sidebar-divider">
                 get social with us
@@ -151,7 +166,6 @@
                 <strong>Atention</strong>
                 <em>Released a right sidebar item</em>
             </a>
-            
             <div class="sidebar-divider">
                 Copyright 2015. All rights reserved.
             </div>
@@ -163,114 +177,80 @@
         <div class="header">
             <a href="index.html" class="header-logo"></a>
             <a href="#" class="open-menu"><i class="fa fa-navicon"></i></a>
+            <a href="#" class="open-more"><i class="fa fa-envelope-o"></i></a>
         </div>
         
-        <div class="header-clear"></div>        
-        <div class="content">        
-            
-            <div class="one-half-responsive">
-                <h3>Calendar Design</h3>
-                <p>
-                    A calendar template, you can use to show schedules, events and whatever else you want! 
-                    This is a calendar template. You can create months by simply adding days, years and more.
-                </p>
-                <div class="decoration"></div>
-                <h3 class="right-text half-bottom">January, 2025</h3>
-                <div class="calendar-titles">
-                    <a class="light-titles" href="#">S</a>
-                    <a href="#">M</a>
-                    <a href="#">T</a>
-                    <a href="#">W</a>
-                    <a href="#">T</a>
-                    <a href="#">F</a>
-                    <a class="light-titles" href="#">S</a>
-                </div>
-                <div class="decoration half-bottom"></div>
-                <div class="calendar-days">
-                    <!-- &nbsp adds a space for the single numbers, this way they can be centered in boxes -->
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp1</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp2</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp3</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp4</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp5</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp6</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp7</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp8</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>&nbsp9</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>10</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>11</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>12</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>13</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>14</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>15</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>16</a>
-                    <a class="taken-day" href="#"><i class="fa fa-circle"></i>17</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>18</a>
-                    <a class="close-day" href="#"><i class="fa fa-circle"></i>19</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>20</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>21</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>22</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>23</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>24</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>25</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>26</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>27</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>28</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>29</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>30</a>
-                    <a class="clear-day" href="#"><i class="fa fa-circle"></i>31</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp1</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp2</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp3</a>
-                    <a class="light-day" href="#"><i class="fa fa-circle"></i>&nbsp4</a>
-                </div>
+        <div class="header-clear"></div>
+        <div class="content">
+           <div class="adaptive-style">
+                <h4>Portfolio</h4>
+                <a class="adaptive-three-activate" href="#"><i class="fa fa-th"></i></a>
+                <a class="adaptive-two-activate"   href="#"><i class="fa fa-th-large"></i></a>
+                <a class="adaptive-one-activate active-adaptive-style" href="#"><i class="fa fa-navicon"></i></a>
             </div>
-            <div class="one-half-responsive last-column">      
-                <div class="calendar-hours">
-                    <a href="#" class="calendar-hour calendar-hour-taken">
-                        <strong class="cal-from">0:00 AM</strong>
-                        <strong class="cal-to">  9:00 AM</strong>
-                        <h4>Closing Hours</h4>
-                        <em><i class="fa fa-map-marker"></i>Melbourne Victoria</em>
-                    </a>                   
-                    <a href="#"  class="calendar-hour calendar-hour-clear">
-                        <strong class="cal-time">10:00 AM</strong>
-                        <h4> </h4>
-                        <em> </em>
-                    </a>                                 
-                    <a href="#"  class="calendar-hour calendar-hour-taken">
-                        <strong class="cal-time">11:00 PM</strong>
-                        <h4>Lunch</h4>
-                        <em><i class="fa fa-cutlery"></i>Restaurant, Miami Beach</em>
-                    </a>                   
-                    <a href="#"  class="calendar-hour calendar-hour-taken">
-                        <strong class="cal-from">12:00 PM</strong>
-                        <strong class="cal-to">09:00 PM</strong>
-                        <h4>Work</h4>
-                        <em><i class="fa fa-suitcase"></i>Working Headquarters</em>
-                    </a>  
-                    <a href="#"  class="calendar-hour calendar-hour-clear">
-                        <strong class="cal-time">10:00 AM</strong>
-                        <h4> </h4>
-                        <em> </em>
-                    </a>                     
-                    <a href="#"  class="calendar-hour calendar-hour-clear">
-                        <strong class="cal-time">11:00 AM</strong>
-                        <h4> </h4>
-                        <em> </em>
-                    </a>                 
-                    <a href="#" class="calendar-hour calendar-hour-taken">
-                        <strong class="cal-time">12:00 PM</strong>
-                        <h4>John's Birthday!</h4>
-                        <em><i class="fa fa-birthday-cake"></i> Wish him a happy birthday!</em>
-                    </a> 
-                </div>
-            </div>
-            
+            <div class="clear"></div>
+
             <div class="decoration"></div>
-                      
+
+            <div class="portfolio-adaptive adaptive-one">
+                <div class="adaptive-item">
+                    <a href="images/pictures/1.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/1.jpg" alt="img">
+                    </a>
+                    <h4>Item One</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet porta dolor, non posuere orci.
+                    </p>
+                </div>
+                <div class="adaptive-item">
+                    <a href="images/pictures/2.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/2.jpg" alt="img">
+                    </a>
+                    <h4>Item Two</h4>
+                    <p>
+                        Aliquam dui nunc, bibendum nec hendrerit et, sollicitudin sit amet nibh. Vivamus a sollicitudin.         
+                    </p>
+                </div>
+                <div class="adaptive-item">
+                    <a href="images/pictures/3.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/3.jpg" alt="img">
+                    </a>
+                    <h4>Item Three</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet porta dolor, non posuere orci lipsum.
+                    </p>
+                </div>
+                <div class="adaptive-item">
+                    <a href="images/pictures/4.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/4.jpg" alt="img">
+                    </a>
+                    <h4>Item Four</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet porta dolor, non posuere orci lipsum.
+                    </p>
+                </div>
+                <div class="adaptive-item">
+                    <a href="images/pictures/5.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/5.jpg" alt="img">
+                    </a>
+                    <h4>Item Five</h4>
+                    <p>
+                        Aliquam dui nunc, bibendum nec hendrerit et, sollicitudin sit amet nibh. Vivamus a sollicitudin.
+                    </p>
+                </div>
+                <div class="adaptive-item">
+                    <a href="images/pictures/6.jpg" class="swipebox" title="Caption Goes Here">
+                        <img class="responsive-image" src="images/pictures/6.jpg" alt="img">
+                    </a>
+                    <h4>Item Six</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet porta dolor, non posuere orci.
+                    </p>
+                </div>
+            </div>
+            <div class="decoration"></div>
         </div>
-        
+            
         <!-- Page Footer-->
         <div class="footer">
             <div class="footer-socials half-bottom">
@@ -319,18 +299,6 @@
 </div>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -64,13 +64,12 @@ body{
 
 .header-logo{
     margin-top:18px;
-    margin-left:25px;
+    margin-left:auto;
+    margin-right:auto;
     background-image:url(../images/misc/logo.png);
     width:80px;
     height:24px;
     background-size:80px 24px;
-    float:right;
-    margin-right:25px;
 }
 
 .header-clear{
@@ -94,6 +93,30 @@ body{
 }
 
 .open-menu i{
+    width:55px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    font-size:14px;
+}
+
+.open-more{
+    color:#bcbcbc;
+    position:absolute;
+    width:55px;
+    height:60px;
+    right:0px;
+    top:0px;
+    transition:all 250ms ease;
+}
+
+.open-more:hover{
+    color:#FFFFFF;
+    background-color:rgba(255,255,255,0.02);
+    transition:all 250ms ease;
+}
+
+.open-more i{
     width:55px;
     height:60px;
     line-height:60px;
@@ -831,4 +854,5 @@ body{
 .slider-image-1{background-image:url(../images/pictures/3.jpg);}
 .slider-image-2{background-image:url(../images/pictures/1.jpg);}
 .slider-image-3{background-image:url(../images/pictures/5.jpg);}
+
 
