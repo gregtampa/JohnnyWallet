@@ -1,0 +1,65 @@
+<ion-view view-title="" title="Johnny Wallet" class="intro">
+    <ion-nav-buttons side="left">
+        <button class="button button-positive button-clear no-animation" ng-click="startApp()" ng-if="!slideIndex">
+            Skip Intro
+        </button>
+        <button class="button button-positive button-clear no-animation" ng-click="previous()" ng-if="slideIndex > 0">
+            Previous Slide
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-positive button-clear no-animation" ng-click="next()" ng-if="slideIndex != 4">
+            Next
+        </button>
+        <button class="button button-positive button-clear no-animation" ng-click="startApp()" ng-if="slideIndex == 4">
+            Start using Johnny Wallet
+        </button>
+    </ion-nav-buttons>
+    <ion-slide-box show-pager="true" on-slide-changed="slideChanged($index)">
+        <ion-slide>
+            <div id="logo">
+                <img src="img/Logo.png">
+            </div>
+            <p>
+                Own Your Money!
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>Swipe Right to Learn How to Use
+            <br>Johnny Wallet
+            <p>
+            <br>
+            <br>
+            <br>
+                <h5>Show intro on App Start?</h5>
+                <label class="toggle toggle-positive">
+                    <input type="checkbox" ng-model="showTutorial.checked" ng-change="saveCheck()">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </p>
+        </ion-slide>
+        <ion-slide>
+            <h3>Buy Bitcoins</h3>
+
+        </ion-slide>
+        <ion-slide>
+            <h3>Sell Bitcoins</h3>
+
+
+        </ion-slide>
+        <ion-slide>
+            <h3>Send Bitcoins</h3>
+
+
+        </ion-slide>
+        <ion-slide>
+            <h3>Recieve Bitcoins</h3>
+
+            
+            
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>
