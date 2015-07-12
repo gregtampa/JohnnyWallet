@@ -1,4 +1,4 @@
-angular.module('ionizer-chat.servicefirebase', ['ionizer-chat.services'])
+angular.module('johnnywallet.servicefirebase', ['johnnywallet.services'])
     .value('FIREBASE_REF', 'https://int-chat.firebaseIO.com')
 
 .factory('firebaseservice', function($firebase, $firebaseAuth, FIREBASE_REF, $q, $firebaseArray, $firebaseObject) {

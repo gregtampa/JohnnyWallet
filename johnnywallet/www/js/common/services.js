@@ -1,4 +1,4 @@
-angular.module('ionizer-chat.services', [])
+angular.module('johnnywallet.services', [])
 
 .factory('APIFunctions', ['utility', function(utility) {
 

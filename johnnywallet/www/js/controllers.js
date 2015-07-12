@@ -1,4 +1,4 @@
-angular.module('ionizer-chat.controllers', ['ionizer-chat.services', 'ionizer-chat.servicefirebase'])
+angular.module('johnnywallet.controllers', ['johnnywallet.services', 'johnnywallet.servicefirebase'])
 
 
 

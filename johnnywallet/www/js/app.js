@@ -1,4 +1,4 @@
-angular.module('ionizer-chat', ['ionic', 'ngCordova', 'firebase', 'monospaced.elastic', 'angularMoment', 'ionizer-chat.controllers', 'ionizer-chat.services', 'ionizer-chat.firebaseController', 'ionizer-chat.servicefirebase'])
+angular.module('johnnywallet', ['ionic', 'ngCordova', 'firebase', 'monospaced.elastic', 'angularMoment', 'johnnywallet.controllers', 'johnnywallet.services', 'johnnywallet.firebaseController', 'johnnywallet.servicefirebase'])
 
 .run(function($ionicPlatform, firebaseservice, $state, $rootScope, $localstorage) {
     $ionicPlatform.ready(function() {

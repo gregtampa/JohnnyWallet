@@ -1,4 +1,4 @@
-angular.module('ionizer-chat.firebaseController', ['ionizer-chat.services'])
+angular.module('johnnywallet.firebaseController', ['johnnywallet.services'])
 
 .controller('profilePersonalCtrl', function($scope, firebaseservice) {
 
