@@ -87,18 +87,78 @@ angular.module('johnnywallet', ['ionic', 'ngCordova', 'firebase', 'monospaced.el
         url: "/home",
         views: {
             'menuContent': {
-                templateUrl: "templates/Chat/home.html",
+                templateUrl: "templates/home.html",
                 controller: 'HomeCtrl'
             }
         }
     })
-
-    .state('app.room', {
-        url: "/room/:roomId",
+	
+    .state('app.wallet', {
+        url: "/wallet",
         views: {
             'menuContent': {
-                templateUrl: "templates/Chat/room.html",
-                controller: 'RoomCtrl'
+                templateUrl: "templates/wallet.html",
+                controller: 'walletCtrl'
+            }
+        }
+    })
+
+    .state('app.vault', {
+        url: "/vault",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/vault.html",
+                controller: 'vaultCtrl'
+            }
+        }
+    })
+
+    .state('app.send', {
+        url: "/send",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/send.html",
+                controller: 'sendCtrl'
+            }
+        }
+    })
+	
+    .state('app.request', {
+        url: "/request",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/request.html",
+                controller: 'requestCtrl'
+            }
+        }
+    })
+	
+    .state('app.buy', {
+        url: "/buy",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/buy.html",
+                controller: 'buyCtrl'
+            }
+        }
+    })
+	
+    .state('app.sell', {
+        url: "/sell",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/sell.html",
+                controller: 'sellCtrl'
+            }
+        }
+    })
+	
+    .state('app.invite', {
+        url: "/invite",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/invite.html",
+                controller: 'inviteCtrl'
             }
         }
     });
