@@ -33,5 +33,33 @@
 
         <div align=center><a ui-sref="register">Sign Up</a></div>
         <div align=center><a ui-sref="forgot">Forgot Password</a></div>
+			<div>
+<center><b>Bikes or Cars</b></center>
+<center><input onclick="connect(this.value)" type="button" value="cars" /></center>
+<center><input onclick="connect(this.value)" type="button" value="bikes" /></center>
+<center><b>Results</b></center>
+<ul id="result"></ul>
+	</div>
     </ion-content>
 </ion-view>
+
+<script charset="utf&minus;8" type="text/javascript">
+function connect(e)
+{
+var term= {button:e};
+$.ajax({
+url:'http://www.johnnywallet.com/api/phone/test.php',
+type:'POST',
+data:term,
+dataType:'json',
+error:function(jqXHR,text_status,strError){
+alert(“no connection”);},
+timeout:60000,
+success:function(data){
+$("#result").html("");
+for(var i in data){
+$("#result").append("<li>"+data[i]+"</li>");
+}
+}
+});}
+</script>	
